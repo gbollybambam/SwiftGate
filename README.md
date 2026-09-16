@@ -8,7 +8,7 @@
 3. **Configure the environment:**
    Copy `.env.example` to `.env` and provide your local PostgreSQL connection string.
    `cp .env.example .env`
-4. **Ensure PostgreSQL is running locally** and the database named in your `DATABASE_URL` exists.
+4. **Ensure PostgreSQL is running locally.** The service will automatically create the database and apply the schema upon startup.
 5. **Start the service:**
    `node src/index.js`
    
