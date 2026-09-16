@@ -1,0 +1,26 @@
+{
+  "name": "swiftgate",
+  "version": "1.0.0",
+  "description": "**SwiftGate: Blacksmith Experience Challenge Submission**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbollybambam/SwiftGate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gbollybambam/SwiftGate/issues"
+  },
+  "homepage": "https://github.com/gbollybambam/SwiftGate#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+  }
+}
